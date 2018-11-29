@@ -8,7 +8,8 @@ public class FileStatistics{
 	public static void main(String[] args) throws Exception, ParseException {
 		String fname;
         Scanner scan = new Scanner(System.in);
-		System.out.print("Enter File Name to Open (with extension like file.txt) : ");
+		System.out.print("Enter File Name to Open file in current directory(with extension like file.txt)\n");
+		System.out.println("Or provide full path location and file with extension for file in another directory: ");
         fname = scan.nextLine();
 		
 		SimpleExample(fname);
